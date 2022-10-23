@@ -1,0 +1,20 @@
+.contacts {
+    max-height: 50px;
+    max-width: 730px;
+}
+
+.icon {
+    filter: invert(71%) sepia(26%) saturate(484%) hue-rotate(317deg) brightness(88%) contrast(84%);
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    align-self: flex-end;
+}
+
+/* cor: #D1958F; */

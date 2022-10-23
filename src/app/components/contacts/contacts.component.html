@@ -1,0 +1,15 @@
+<div class="contacts d-flex flex-column flex-wrap">
+    <div *ngIf="phone">
+        <img class="icon" src="../../../assets/phone.svg">
+        <span>Celular: {{ phone }}</span>
+    </div>
+    <div *ngIf="email">
+        <img class="icon" src="../../../assets/envelope.svg">
+        <span>{{ email }}</span>
+    </div>
+    <div *ngIf="location">
+        <img class="icon" src="../../../assets/house.svg">
+        <span>{{ location }}</span>
+    </div>
+    <img class="avatar" src="../../../assets/avatar.png">
+</div>
